@@ -1,0 +1,71 @@
+{
+  "name": "shardwise",
+  "version": "0.0.0",
+  "description": "Consistent-hashing router for any cache or database: give it host:port, bring your own client.",
+  "keywords": [
+    "consistent-hashing",
+    "hash-ring",
+    "sharding",
+    "failover",
+    "redis",
+    "memcached"
+  ],
+  "homepage": "https://github.com/alphatrann/shardwise#readme",
+  "bugs": "https://github.com/alphatrann/shardwise/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alphatrann/shardwise"
+  },
+  "author": "Alpha Tran",
+  "license": "MIT",
+  "packageManager": "yarn@4.13.0",
+  "workspaces": [
+    "examples"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "changeset": "changeset",
+    "version-packages": "changeset version && yarn install --mode=update-lockfile"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.30.0",
+    "@eslint/js": "^10.0.1",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.15",
+    "eslint": "^10.7.0",
+    "eslint-config-prettier": "^10.1.8",
+    "jest": "^30.2.0",
+    "prettier": "^3.9.5",
+    "ts-jest": "^29.4.6",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.63.0"
+  }
+}

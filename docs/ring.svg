@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+<title>Hash ring with weighted vnodes</title><rect width="640" height="640" rx="12" fill="#ffffff" stroke="#d4d4d8"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52525b"/></marker></defs>
+<circle cx="320" cy="300" r="200" fill="none" stroke="#a1a1aa" stroke-width="2"/>
+<text x="320" y="294" text-anchor="middle" font-size="15" fill="#3f3f46">hash space</text>
+<text x="320" y="314" text-anchor="middle" font-size="12" fill="#71717a">0 → 2³² − 1, clockwise</text>
+<circle cx="330.9" cy="100.3" r="7" fill="#ea580c" stroke="#fff" stroke-width="2"/>
+<circle cx="335.5" cy="100.6" r="7" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+<circle cx="364.0" cy="104.9" r="7" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+<circle cx="390.7" cy="112.9" r="7" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+<circle cx="435.3" cy="136.6" r="7" fill="#ea580c" stroke="#fff" stroke-width="2"/>
+<circle cx="459.3" cy="156.5" r="7" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+<circle cx="462.7" cy="159.9" r="7" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+<circle cx="505.8" cy="226.0" r="7" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="519.5" cy="286.6" r="7" fill="#ea580c" stroke="#fff" stroke-width="2"/>
+<circle cx="519.9" cy="293.2" r="7" fill="#ea580c" stroke="#fff" stroke-width="2"/>
+<circle cx="498.4" cy="390.4" r="7" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+<circle cx="438.4" cy="461.2" r="7" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="316.6" cy="500.0" r="7" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+<circle cx="292.0" cy="498.0" r="7" fill="#ea580c" stroke="#fff" stroke-width="2"/>
+<circle cx="280.0" cy="496.0" r="7" fill="#ea580c" stroke="#fff" stroke-width="2"/>
+<circle cx="252.8" cy="488.4" r="7" fill="#ea580c" stroke="#fff" stroke-width="2"/>
+<circle cx="228.1" cy="477.7" r="7" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+<circle cx="149.2" cy="404.1" r="7" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="142.5" cy="392.1" r="7" fill="#ea580c" stroke="#fff" stroke-width="2"/>
+<circle cx="140.4" cy="387.9" r="7" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="120.5" cy="313.5" r="7" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="141.5" cy="209.8" r="7" fill="#ea580c" stroke="#fff" stroke-width="2"/>
+<circle cx="146.0" cy="201.4" r="7" fill="#ea580c" stroke="#fff" stroke-width="2"/>
+<circle cx="149.6" cy="195.2" r="7" fill="#ea580c" stroke="#fff" stroke-width="2"/>
+<circle cx="150.5" cy="193.9" r="7" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="196.1" cy="143.0" r="7" fill="#ea580c" stroke="#fff" stroke-width="2"/>
+<circle cx="203.2" cy="137.6" r="7" fill="#ea580c" stroke="#fff" stroke-width="2"/>
+<circle cx="216.4" cy="128.9" r="7" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="240.6" cy="116.4" r="7" fill="#ea580c" stroke="#fff" stroke-width="2"/>
+<circle cx="245.9" cy="114.3" r="7" fill="#ea580c" stroke="#fff" stroke-width="2"/>
+<circle cx="295.8" cy="101.5" r="7" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="318.2" cy="100.0" r="7" fill="#ea580c" stroke="#fff" stroke-width="2"/>
+<path d="M453.5,482.4 A226,226 0 0 1 316.1,526.0" fill="none" stroke="#52525b" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar)"/>
+<path d="M438.1,452.4 l9,9 l-9,9 l-9,-9 z" fill="#18181b" stroke="#fff" stroke-width="2"/>
+<text x="468.8" y="503.4" text-anchor="middle" font-size="13" font-weight="600" fill="#18181b">hash("user:943")</text>
+<text x="317.0" y="472.0" text-anchor="middle" font-size="12" font-weight="600" fill="#16a34a">leader</text>
+<text x="299.3" y="446.5" text-anchor="middle" font-size="12" font-weight="600" fill="#ea580c">replica 1</text>
+<text x="214.1" y="364.5" text-anchor="middle" font-size="12" font-weight="600" fill="#2563eb">replica 2</text><circle cx="40" cy="560" r="7" fill="#2563eb" stroke="#2563eb" stroke-width="2"/>
+<text x="56" y="564" font-size="13" fill="#27272a">10.0.0.1:6379 · 8 vnodes</text>
+<circle cx="40" cy="584" r="7" fill="#16a34a" stroke="#16a34a" stroke-width="2"/>
+<text x="56" y="588" font-size="13" fill="#27272a">10.0.0.2:6379 · 8 vnodes</text>
+<circle cx="40" cy="608" r="7" fill="#ea580c" stroke="#ea580c" stroke-width="2"/>
+<text x="56" y="612" font-size="13" fill="#27272a">10.0.0.3:6379 · 16 vnodes</text><text x="320" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#18181b">Keys walk clockwise to the next vnode</text><text x="320" y="54" text-anchor="middle" font-size="12.5" fill="#52525b">First vnode clockwise is the leader, the next nodes are replicas.</text><text x="320" y="72" text-anchor="middle" font-size="12.5" fill="#52525b">10.0.0.3 has 2× the vnodes, so ~2× the keys.</text></svg>
