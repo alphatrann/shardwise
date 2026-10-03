@@ -1,6 +1,6 @@
 {
   "name": "shardwise",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Consistent-hashing router for any cache or database: give it host:port, bring your own client.",
   "keywords": [
     "consistent-hashing",
