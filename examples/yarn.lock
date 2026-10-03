@@ -45,6 +45,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@shardwise/core@link:..::locator=shardwise-examples%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@shardwise/core@link:..::locator=shardwise-examples%40workspace%3A."
+  languageName: node
+  linkType: soft
+
 "@tsconfig/node10@npm:^1.0.7":
   version: 1.0.13
   resolution: "@tsconfig/node10@npm:1.0.13"
@@ -196,18 +202,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "shardwise-examples@workspace:."
   dependencies:
+    "@shardwise/core": "link:.."
     "@types/node": "npm:^24.0.15"
     ioredis: "npm:^5.6.1"
-    shardwise: "link:.."
     ts-node: "npm:^10.9.2"
     typescript: "npm:^5.8.3"
   languageName: unknown
-  linkType: soft
-
-"shardwise@link:..::locator=shardwise-examples%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "shardwise@link:..::locator=shardwise-examples%40workspace%3A."
-  languageName: node
   linkType: soft
 
 "standard-as-callback@npm:2.1.0":

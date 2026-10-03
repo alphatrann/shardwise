@@ -7,14 +7,14 @@ It doesn't speak any wire protocol. Your driver (ioredis, memjs, pg, a raw socke
 ## Install
 
 ```bash
-npm install shardwise
+npm install @shardwise/core
 ```
 
 ## Quick start
 
 ```ts
 import Redis from "ioredis";
-import { Router } from "shardwise";
+import { Router } from "@shardwise/core";
 
 const router = new Router<Redis>({
   connect: async ({ host, port }) => {

@@ -1,7 +1,7 @@
 // Any backend works if you can open a client from host:port. Here the "client"
 // is a bare TCP socket speaking a line protocol (this one is Redis inline PING).
 import net from "net";
-import { Router } from "shardwise";
+import { Router } from "@shardwise/core";
 
 const router = new Router<net.Socket>({
   connect: ({ host, port }) =>

@@ -1766,6 +1766,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@shardwise/core@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@shardwise/core@workspace:."
+  dependencies:
+    "@changesets/cli": "npm:^2.30.0"
+    "@eslint/js": "npm:^10.0.1"
+    "@types/jest": "npm:^30.0.0"
+    "@types/node": "npm:^24.0.15"
+    eslint: "npm:^10.7.0"
+    eslint-config-prettier: "npm:^10.1.8"
+    jest: "npm:^30.2.0"
+    prettier: "npm:^3.9.5"
+    ts-jest: "npm:^29.4.6"
+    tsup: "npm:^8.5.1"
+    typescript: "npm:^5.9.3"
+    typescript-eslint: "npm:^8.63.0"
+  languageName: unknown
+  linkType: soft
+
 "@sinclair/typebox@npm:^0.34.0":
   version: 0.34.52
   resolution: "@sinclair/typebox@npm:0.34.52"
@@ -5052,25 +5071,6 @@ __metadata:
   checksum: 10c0/b1f3127a5be8125a94f37188b361c212466c292c6910adce3ec106cff5dc211ccaedc4739c11bb70fda59d6fc1f040a9bca289f4e093451521a2372e5231fe0c
   languageName: node
   linkType: hard
-
-"shardwise@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "shardwise@workspace:."
-  dependencies:
-    "@changesets/cli": "npm:^2.30.0"
-    "@eslint/js": "npm:^10.0.1"
-    "@types/jest": "npm:^30.0.0"
-    "@types/node": "npm:^24.0.15"
-    eslint: "npm:^10.7.0"
-    eslint-config-prettier: "npm:^10.1.8"
-    jest: "npm:^30.2.0"
-    prettier: "npm:^3.9.5"
-    ts-jest: "npm:^29.4.6"
-    tsup: "npm:^8.5.1"
-    typescript: "npm:^5.9.3"
-    typescript-eslint: "npm:^8.63.0"
-  languageName: unknown
-  linkType: soft
 
 "shebang-command@npm:^2.0.0":
   version: 2.0.0

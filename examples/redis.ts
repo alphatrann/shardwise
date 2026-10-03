@@ -1,7 +1,7 @@
 // Shard keys across several Redis instances with ioredis.
 // Start some first, e.g.: for p in 6379 6380 6381; do redis-server --port $p & done
 import Redis from "ioredis";
-import { Router } from "shardwise";
+import { Router } from "@shardwise/core";
 
 const router = new Router<Redis>({
   replicas: 2,
