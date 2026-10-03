@@ -34,4 +34,4 @@ yarn-error.log*
 .idea
 
 # os
-.DS_Store
+.DS_Storeexamples/.yarn

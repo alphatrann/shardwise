@@ -19,9 +19,6 @@
   "author": "Alpha Tran",
   "license": "MIT",
   "packageManager": "yarn@4.13.0",
-  "workspaces": [
-    "examples"
-  ],
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
